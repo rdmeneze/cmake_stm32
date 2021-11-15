@@ -1,0 +1,4 @@
+[{
+    "name": "C/C++ CMake-kit for arm-none-eabi 10.2.1",
+    "toolchainFile":"/home/rdias/sources/test_stm32_cmake/arm-none-eabi-gcc.cmake"
+}]

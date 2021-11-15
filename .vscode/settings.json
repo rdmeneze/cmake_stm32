@@ -1,0 +1,24 @@
+// {
+
+//     "kconfig.zephyr.west": "west",
+//     "kconfig.zephyr.base": "/home/rdias/NordicSemi/ncs/zephyr"
+// }
+
+
+{
+    "cmake.generator": "Unix Makefiles",
+    "cmake.configureEnvironment": {
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "on"
+    },
+    "cmake.configureSettings": {
+        "TOOLCHAIN_PREFIX": "/opt/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-gcc",
+        "TARGET_TRIPLET":"arm-none-eabi",
+        "STM32_CHIP": "STM32F446RE",
+        "STM32Cube_DIR": "/opt/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0",
+        "STM32_LINKER_SCRIPT":"${workspaceFolder}/src/STM32F446RETX_FLASH.ld"
+    },
+    "C_Cpp.default.intelliSenseMode": "gcc-arm",
+    "files.associations": {
+        "stm32l4xx.h": "c"
+    }
+}
